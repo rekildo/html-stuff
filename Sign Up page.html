@@ -2,35 +2,60 @@
 <html>
 <head>
 	<title>form</title>
+
+	<style>
+		#form{
+			padding: 50px;
+			background-color: white;
+			width: 330px;
+			
+
+
+			}
+
+		.in{
+			margin-top: 5px;
+			margin-bottom: 5px;
+			font-size: 23px;
+
+		}
+			#box{
+				width:100%;
+				font-size: 20px
+			}
+
+
+
+	</style>
 </head>
-<body >
-	<form>
-		<h1>Sign In</h1>
+<body style="background-color: lightblue;" >
+	<form id="form" style="margin-left: auto;margin-right:auto;">
+		<h1 style="text-align: center;background-color: lightblue;">Sign In</h1>
 		<div>
-			Username:<br>
-			<input type="text" name="username">
+			<p class="in">Username:</p>
+			<input id="box" type="text" name="username">
 			
 		</div>
 		<div>
-			Password:<br>
-			<input type="password" name="password">
+			<p class="in">Password:</p>
+			<input  id="box" type="password" name="password">
 		</div>
 		<div>
-			Confirm-Password:<br>
-			<input type="password" name="confirm-password">
-		</div>
-
-		<div>
-			Gender:
-				<input type="radio" name="male" value="male">Male
-				<input type="radio" name="Female" value="Female">Female
-				<input type="radio" name="other" value="other">other
-
+			<p class="in">Confirm-Password:</p>
+			<input id="box" type="password" name="confirm-password">
 		</div>
 
 		<div>
-			Security Question:
-				<select name="security-question">
+			<p class="in">Gender:</p>
+				<input  style="font-size: 30px" type="radio" name="male" value="male"><span style="font-size: 23px">Male</span>
+				<input  type="radio" name="male" value="Female"><span style="font-size: 23px">Female</span>
+				<input  type="radio" name="male" value="other"><span style="font-size: 23px">other</span>
+
+		</div>
+
+		<div>
+			<p class="in">Security Question:</p>
+				<select style="font-size:15px"name="security-question">
 					<option value="first-job">What was your First JOB</option>
 					<option>What was your First Movie</option>
 					<option>What is your favourate Game</option>
@@ -38,10 +63,10 @@
 				</select>
 		</div>
 		<div>
-			<textarea name="answer" rows="6" cols="30"> </textarea>
+			<textarea id="box" name="answer" rows="6" cols="30"> </textarea>
 		</div>
-			<input type="checkbox" name="terms and conditons">This is to check that everything you have entered is Correct<br>
-			<input type="submit" value="Register">
+			<input style="margin-top:5px;margin-bottom:5px"type="checkbox" name="terms and conditons"><span style="font-size: 23px">This is to check that everything you have entered is Correct<br></span>
+			<input style="margin-top: 15px;font-size: 19px" type="submit" value="Register">
 	</form>
 
 </body>
