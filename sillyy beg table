@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="beg.css">
+	<title>NUB</title>
+
+	<style type="text/css">
+		
+		table, th, td{
+			border: 2px solid black;
+			border-collapse: collapse;
+		}
+
+		td, th{
+			padding: 16px;
+			font-size: 24px;
+		}
+
+
+		.blue-color{
+			background-color: lightblue;
+			font-weight: 900;
+		}
+
+
+		table{
+			width: 800px;
+
+			margin: auto;
+
+		}
+
+	</style>
+</head>
+<body style="background-color:lightcoral;">
+
+
+<table>
+	
+	<tr class="blue-color">
+		<td colspan="3">Invoice#123ABC</td>
+		<td>18 Jul 2019</td>
+
+	</tr>
+
+
+
+	<tr>
+		<td colspan="2">
+			<b>Pay To:</b>	<br>		
+			The Tech park<br>	
+			123 Willow Street <br>	
+			Boulevard, LA - 34543		
+		</td>
+
+		<td colspan="2">
+			<b>Customer:</b> <br>	
+			John Lark <br>	
+			Dummy Apartments<br>	
+			234 Main Street <br>	
+			Boulevard, LA - 23432
+		</td>
+	</tr>
+
+
+
+	<tr class="blue-color">
+		<td>Name/Description</td>
+		<td>Qty.</td>
+		<td>MRP</td>
+		<td>Amount</td>
+
+	</tr>
+
+	<tr>
+
+		<td>Biryani</td>
+		<td>3</td>
+		<td>499</td>
+		<td>1299</td>
+
+	</tr>
+
+
+	<tr>
+
+		<td>Chocolate Shake</td>
+		<td>3</td>
+		<td>299</td>
+		<td>599</td>
+
+	</tr>
+
+	<tr>
+		<td colspan="3" class="blue-color">Subtotal:</td>
+		<td>2999</td>
+	</tr>
+
+
+
+	<tr>
+		<td colspan="2" class="blue-color">Tax</td>
+		<td>10%</td>
+		<td>289</td>
+	</tr>
+
+
+
+
+	<tr>
+		<td colspan="3" class="blue-color">Grand Total</td>
+		<td>Rs 1620</td>
+	</tr>
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+</body>
+</html>
